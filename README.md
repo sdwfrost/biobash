@@ -10,4 +10,6 @@ A collection of bash scripts for bioinformatics.
 * ```longorf.sh``` : Extracts the longest open reading frame. Requires ```getorf``` from EMBOSS.
 * ```removesmalls.sh``` : Removes sequences shorter than a given threshold. Taken from a hint by Frederic Mahe (see http://www.biostars.org/p/79202/).
 * ```sortfasta.sh``` : Sorts a FASTA file into sequences of decreasing length.
+* ```startatname.sh``` : Prints a FASTA file beginning at a given sequence name.
+* ```stopatname.sh``` : Prints a FASTA file until (and including) a given sequence name.
 * ```trimorf.sh```: Trims non-coding regions from the beginning and end of a sequence.
