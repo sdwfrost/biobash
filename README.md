@@ -7,6 +7,7 @@ A collection of bash scripts for bioinformatics.
 * ```countntbl.sh``` : Generates a table with sequence names and the number of 'N's in the sequence.
 * ```dedup.sh``` : Removes exact duplicates from a FASTA file. From a tip by Pierre Lindenbaum (see https://www.biostars.org/p/3003/).
 * ```extractacc.sh``` : Takes NCBI formatted FASTA file and generates a text file with the accessions.
+* ```fasta2phylip.sh```: Converts FASTA to phylip format, useful for phyml.
 * ```linfasta.sh``` : Converts a FASTA file into linearized sequences (i.e. alternating titles and sequences). Taken from a hint by Frederic Mahe (see http://www.biostars.org/p/17680).
 * ```longorf.sh``` : Extracts the longest open reading frame. Requires ```getorf``` from EMBOSS.
 * ```removesmalls.sh``` : Removes sequences shorter than a given threshold. Taken from a hint by Frederic Mahe (see http://www.biostars.org/p/79202/).
