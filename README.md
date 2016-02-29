@@ -17,4 +17,5 @@ A collection of bash scripts for bioinformatics.
 * ```sortfasta.sh``` : Sorts a FASTA file into sequences of decreasing length.
 * ```startatname.sh``` : Prints a FASTA file beginning at a given sequence name.
 * ```stopatname.sh``` : Prints a FASTA file until (and including) a given sequence name.
+* ```translate.sh```: Uses ```transeq``` from EMBOSS to translate sequences, but removes the additional numbering introduced by ```transeq```.
 * ```trimorf.sh```: Trims non-coding regions from the beginning and end of a sequence. Requires ```getorf``` from EMBOSS.
