@@ -9,6 +9,6 @@ numseq=$(grep -c  ">" $1)
 
 for i in $(seq 1 $numseq)
 do
-    (nthseq $1 -filter -number $i | getorf -filter -table 0 -find 2 -noreverse | sizeseq -filter -desc | seqret -filter -first)
+	(nthseq $1 -filter -number $i | getorf -filter -table 0 -find 2 -noreverse | sizeseq -filter -desc | seqret -filter -first | sed -r -e 's/_[0-9]* (.+?)//g')
 done
 
