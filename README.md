@@ -19,3 +19,4 @@ A collection of bash scripts for bioinformatics.
 * ```stopatname.sh``` : Prints a FASTA file until (and including) a given sequence name.
 * ```translate.sh```: Uses ```transeq``` from EMBOSS to translate sequences, but removes the additional numbering introduced by ```transeq```.
 * ```trimorf.sh```: Trims non-coding regions from the beginning and end of a sequence. Requires ```getorf``` from EMBOSS.
+* ```tsv2fas.sh```: Converts a tab-delimited file (name,sequence with no header to FASTA.
