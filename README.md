@@ -5,11 +5,14 @@ A collection of bash scripts for bioinformatics.
 
 * ```cleannames.sh``` : Takes NCBI formatted FASTA file and generates a new FASTA file with only the accessions.
 * ```countntbl.sh``` : Generates a table with sequence names and the number of 'N's in the sequence.
+* ```countseq.sh``` : Counts sequences in a FASTA file.
 * ```dedup.sh``` : Removes exact duplicates from a FASTA file. From a tip by Pierre Lindenbaum (see https://www.biostars.org/p/3003/).
+* ```degap.sh``` : Degaps a FASTA file (see https://www.biostars.org/p/302104/).
 * ```extractacc.sh``` : Takes NCBI formatted FASTA file and generates a text file with the accessions.
 * ```extractseq.sh``` : Takes FASTA file and extracts only the sequence.
 * ```fas2csv.sh``` : Converts FASTA into tab-separated file.
-* ```fas2phylip.sh```: Converts FASTA to phylip format, useful for phyml.
+* ```fas2phylip.sh``` : Converts FASTA to phylip format, useful for phyml.
+* ```lenseq.sh``` : Returns length of all sequences in a FASTA file.
 * ```linfasta.sh``` : Converts a FASTA file into linearized sequences (i.e. alternating titles and sequences). Taken from a hint by Frederic Mahe (see http://www.biostars.org/p/17680).
 * ```longorf.sh``` : Extracts the longest open reading frame. Requires ```getorf``` from EMBOSS.
 * ```numbersequences.sh``` : Renames sequences with 'X' followed by a number. Use in conjunction with ```seqnametable.sh```.
