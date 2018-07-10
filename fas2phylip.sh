@@ -1,7 +1,7 @@
 #! /bin/sh
 
 if [ $# != 1 ]; then
-    echo "USAGE: ./fasta2phylip.sh <fasta-file>"
+    echo "USAGE: ./fas2phylip.sh <fasta-file>"
     exit
 fi
 
